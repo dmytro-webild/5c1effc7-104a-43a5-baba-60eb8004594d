@@ -124,20 +124,14 @@ export default function LandingPage() {
       useInvertedBackground={true}
       products={[
         {
-          id: "p1",          name: "Garden Renovation",          price: "Custom",          imageSrc: "http://img.b2bpic.net/free-photo/stepping-stone-garden-path_1252-1029.jpg"},
+          id: "p1",          name: "Custom Lawn Mowing",          price: "From $50",          imageSrc: "http://img.b2bpic.net/free-photo/stepping-stone-garden-path_1252-1029.jpg"},
         {
-          id: "p2",          name: "Modern Patio",          price: "Custom",          imageSrc: "http://img.b2bpic.net/free-photo/high-angle-man-working-eco-friendly-wind-power-project-with-paper-plans_23-2148847792.jpg"},
+          id: "p2",          name: "Hardscaping Design",          price: "From $2500",          imageSrc: "http://img.b2bpic.net/free-photo/high-angle-man-working-eco-friendly-wind-power-project-with-paper-plans_23-2148847792.jpg"},
         {
-          id: "p3",          name: "Stone Walkway",          price: "Custom",          imageSrc: "http://img.b2bpic.net/free-photo/photorealistic-sustainable-garden-with-home-grown-plants_23-2151479074.jpg"},
-        {
-          id: "p4",          name: "Retaining Wall",          price: "Custom",          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-japanese-garden_23-2149359701.jpg"},
-        {
-          id: "p5",          name: "Lawn Restoration",          price: "Custom",          imageSrc: "http://img.b2bpic.net/free-photo/man-working-eco-friendly-wind-power-project-with-layout_23-2148847779.jpg"},
-        {
-          id: "p6",          name: "Full Landscape Design",          price: "Custom",          imageSrc: "http://img.b2bpic.net/free-photo/greenhouse-owner-presenting-flowers-options-potential-customer-retailer_158595-7007.jpg"},
+          id: "p3",          name: "Flower Bed Installation",          price: "From $150",          imageSrc: "http://img.b2bpic.net/free-photo/photorealistic-sustainable-garden-with-home-grown-plants_23-2151479074.jpg"},
       ]}
-      title="Portfolio Highlights"
-      description="A glimpse of the landscapes we've crafted with passion and precision."
+      title="Featured Landscaping Services"
+      description="Quality landscaping solutions tailored to your property requirements."
     />
   </div>
 
@@ -155,17 +149,11 @@ export default function LandingPage() {
           id: "t2",          name: "Sarah J.",          role: "Business Owner",          company: "Local Café",          rating: 5,
           imageSrc: "http://img.b2bpic.net/free-photo/woman-walking-romantic-happy-holidays-holding-hand-boyfriend-following-her_1150-4659.jpg"},
         {
-          id: "t3",          name: "James L.",          role: "Homeowner",          company: "Private Residence",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/side-view-smiley-woman-holding-her-her_23-2148631401.jpg"},
-        {
-          id: "t4",          name: "Elena M.",          role: "Homeowner",          company: "Private Residence",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/male-gardener-cutting-harvested-flower-garden_23-2148165213.jpg"},
-        {
-          id: "t5",          name: "Robert B.",          role: "Property Manager",          company: "Office Park",          rating: 5,
+          id: "t3",          name: "Robert B.",          role: "Property Manager",          company: "Office Park",          rating: 5,
           imageSrc: "http://img.b2bpic.net/free-photo/hands-gardener-orange-gloves-are-trimming-overgrown-green-shrub-using-hedge-shears-sunny-backyard-worker-landscaping-garden-close-up_639032-841.jpg"},
       ]}
       title="Client Success Stories"
-      description="Don't just take our word for it—hear from satisfied clients across the city."
+      description="See why residents and business owners trust us with their green spaces."
     />
   </div>
 
@@ -192,12 +180,12 @@ export default function LandingPage() {
       useInvertedBackground={false}
       background={{
         variant: "plain"}}
-      tag="Let's Get Started"
+      tag="Contact Us"
       title="Ready to Transform Your Landscape?"
-      description="Contact us today for a free estimate and discover what D&Z can do for your yard."
+      description="24612 N River Rd, Mt Clemens, MI 48043 | (586) 819-1074"
       buttons={[
         {
-          text: "Contact Us Now",          href: "#contact"},
+          text: "Call Now",          href: "tel:5868191074"},
       ]}
     />
   </div>
@@ -207,21 +195,17 @@ export default function LandingPage() {
       logoText="D&Z Landscaping"
       columns={[
         {
-          title: "Services",          items: [
+          title: "Location",          items: [
             {
-              label: "Lawn Care",              href: "#"},
+              label: "24612 N River Rd, Mt Clemens, MI 48043",              href: "#"},
             {
-              label: "Landscaping",              href: "#"},
-            {
-              label: "Masonry",              href: "#"},
+              label: "(586) 819-1074",              href: "tel:5868191074"},
           ],
         },
         {
-          title: "Company",          items: [
+          title: "Links",          items: [
             {
-              label: "About Us",              href: "#"},
-            {
-              label: "Careers",              href: "#"},
+              label: "About Us",              href: "#about"},
             {
               label: "Privacy Policy",              href: "#"},
           ],
